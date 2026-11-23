@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My CV &amp; Contact — Louis Albertini</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></symbol>
+    <symbol id="i-up-right" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></symbol>
+  </svg>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container bar">
+      <a class="brand" href="index.html">Louis Albertini</a>
+      <nav aria-label="Main">
+        <a href="projects.html">Projects</a>
+        <a href="experience.html"><span class="long">Professional </span>Experience</a>
+        <a href="contact.html" aria-current="page">Contact<span class="long"> and CV</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head">
+        <p class="eyebrow">My CV &amp; Contact</p>
+        <h1 class="h-display">An opportunity, a collaboration or a question?</h1>
+        <p class="lead">Write to me, I reply as soon as possible.</p>
+
+        <!-- Replace the mailto address and the CV path with your own -->
+        <div class="contact-card">
+          <p class="card-label">Email</p>
+          <a class="card-email" href="mailto:[your-email-address]">louisorso.albertini@gmail.com</a>
+          <div class="actions">
+            <a class="btn btn-primary btn-glow" href="cv.pdf" download>Download my CV (PDF) <svg class="ico"><use href="#i-download"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <section class="social" aria-labelledby="social-title">
+        <p class="eyebrow">Find me</p>
+        <h2 class="h-section" id="social-title">Social</h2>
+        <div class="tiles">
+          <a class="tile" href="https://www.artstation.com/moxi8" target="_blank" rel="noopener">
+            <div><p class="name">ArtStation</p><p class="handle">https://www.artstation.com/moxi8</p></div>
+            <svg class="ico"><use href="#i-up-right"/></svg>
+          </a>
+          <a class="tile" href="https://www.instagram.com/flexair_/" target="_blank" rel="noopener">
+            <div><p class="name">Instagram</p><p class="handle">https://www.instagram.com/flexair_/</p></div>
+            <svg class="ico"><use href="#i-up-right"/></svg>
+          </a>
+          <a class="tile" href="https://www.linkedin.com/in/louis-albertini-80a7a12ba/" target="_blank" rel="noopener">
+            <div><p class="name">LinkedIn</p><p class="handle">https://www.linkedin.com/in/louis-albertini-80a7a12ba/</p></div>
+            <svg class="ico"><use href="#i-up-right"/></svg>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <p>© 2026 Louis Albertini. The intellectual properties of the games shown belong to their studios.</p>
+      <a class="link" href="contact.html">My CV &amp; Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
